@@ -7,7 +7,7 @@ namespace Rahfanim
         static void Main()
         {
             //new drone!
-            DeliveryDrone drone = new DeliveryDrone("D901", 10);
+            DeliveryDrone drone = new DeliveryDrone("D001", 10);
 
             //takeoff??
             DeliveryResult takeOffResult = drone.TakeOff();
